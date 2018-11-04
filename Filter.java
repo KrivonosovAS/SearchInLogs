@@ -7,6 +7,7 @@ public class Filter {
 
     public ArrayList <File> getFiltered(String path, String fileType){
         typeFilter(path, fileType);
+        System.out.println("return filtered");
         return fl;
     }
 
